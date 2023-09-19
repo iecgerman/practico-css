@@ -7,6 +7,7 @@ body {
       bottom: 0;
       left: 0;
       right: 0;
+      font-family: sans-serif;
 }
 
 a {
@@ -71,4 +72,28 @@ nav {
 .nav__nosotros a {
       color: black;
       border-bottom: 1px solid black;
+}
+
+/* MAIN SECCION */
+
+.home__main {
+      display: grid;
+      grid-template-columns: 1fr 4fr 1fr;
+      height: 100%;
+}
+
+.home__main section {
+      display: grid;
+      grid-column: 2;
+      justify-content: center;
+      height: 350px;
+      margin-top: 80px;
+}
+
+.main__text {
+      font-size: 30px;
+      font-weight: 700px;
+      letter-spacing: 10px;
+      color: black;
+      text-align: center;
 }
