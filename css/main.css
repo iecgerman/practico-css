@@ -40,3 +40,35 @@ header {
       margin-right: 50px;
 }
 
+/* con el before los iconos se comportan como fonts */
+.nav__redes--iconos span::before {      
+      color: white;
+      font-size: 35px;
+}
+
+nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 90px;
+}
+
+.nav__logo {
+      margin-left: 50px;
+}
+
+.nav__logo img {
+      width: 220px;
+      margin-top: 10px;
+}
+
+.nav__nosotros {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: 50px;
+}
+
+.nav__nosotros a {
+      color: black;
+      border-bottom: 1px solid black;
+}
